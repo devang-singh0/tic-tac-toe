@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <section id="game">
+        <h2>Tic Tac Toe</h2>
+        <main>
+            <div class="box" boxNum="0"></div>
+            <div class="box" boxNum="1"></div>
+            <div class="box" boxNum="2"></div>
+            <div class="box" boxNum="3"></div>
+            <div class="box" boxNum="4"></div>
+            <div class="box" boxNum="5"></div>
+            <div class="box" boxNum="6"></div>
+            <div class="box" boxNum="7"></div>
+            <div class="box" boxNum="8"></div>
+            <div id="winLine"></div>
+        </main>
+        <p id="gameStatus"></p>
+        <button id="restart" onclick="window.location.reload()">Restart</button>
+    </section>
+    <div id="instruction">
+        <p><span style="--clr: blue;"></span> : X</p>
+        <p><span style="--clr: red;"></span> : O</p>
+    </div>
+    <script src="main.js"></script>
+    <script src="\particles.js-maste\particles.js-master\particles.js"></script>
+    <script src="\particles.js-maste\particles.js-master\demo\js\app.js"></script>
+</body>
+</html>
